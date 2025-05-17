@@ -77,7 +77,7 @@ export default function Sidebar({ sections, activeSection, onSectionChange }: Si
 
   // Mobile top bar based on the provided design
   const MobileTopBar = () => (
-    <div className="fixed top-0 left-0 right-0 h-14 bg-gray-900 flex items-center z-50 md:hidden">
+    <div className="fixed top-0 left-0 right-0 h-14 [#1C262B] flex items-center z-50 md:hidden">
       <div className="w-14 h-14 bg-gray-800 flex items-center justify-center">
         <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} className="text-white">
           <Menu size={24} />
@@ -89,7 +89,7 @@ export default function Sidebar({ sections, activeSection, onSectionChange }: Si
 
   // Desktop sidebar
   const DesktopSidebar = () => (
-    <aside className="fixed left-0 top-0 h-full w-32 bg-gray-900 flex flex-col items-center z-40 hidden md:flex">
+    <aside className="fixed left-0 top-0 h-full w-32 bg-[#1C262B] flex flex-col items-center z-40 hidden md:flex">
       {/* Profile Section */}
       <div className="w-full flex flex-col items-center">
         <div className="w-full aspect-square bg-gray-800 flex items-center justify-center ">
@@ -157,7 +157,7 @@ export default function Sidebar({ sections, activeSection, onSectionChange }: Si
           animate={{ x: 0 }}
           exit={{ x: "-100%" }}
           transition={{ type: "tween", duration: 0.3 }}
-          className="fixed left-0 top-12 bottom-0 w-40 bg-gray-900 flex flex-col z-50 md:hidden"
+          className="fixed left-0 top-12 bottom-0 w-40 bg-[#1C262B] flex flex-col z-50 md:hidden"
         >
           {/* Profile Section */}
           <div className="w-full flex flex-col items-center">
