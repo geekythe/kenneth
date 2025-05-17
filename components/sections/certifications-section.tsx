@@ -91,14 +91,13 @@ export default function CertificationsSection() {
 
                 <div className="bg-white rounded-lg shadow-xl overflow-hidden">
                   <div className="h-64 md:h-80 bg-emerald-600 flex items-center justify-center">
-                    <div className="relative w-48 h-48">
-                      <Image
+                     <img
                         src={selectedCertification.image.url || "/placeholder.svg"}
                         alt={selectedCertification.title}
-                        fill
-                        className="object-contain"
+                    
+                        className="w-full h-full object-cover"
                       />
-                    </div>
+                    
                   </div>
 
                   <div className="p-8">
@@ -215,14 +214,14 @@ export default function CertificationsSection() {
                       onClick={() => setSelectedCertification(certification)}
                     >
                       <div className="h-48 overflow-hidden bg-emerald-600 flex items-center justify-center">
-                        <div className="relative w-32 h-32">
-                          <Image
+                        
+                          <img
                             src={certification.image.url || "/placeholder.svg"}
                             alt={certification.title}
-                            fill
+                         
                             className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
                           />
-                        </div>
+                        
                       </div>
                       <div className="p-6 text-center">
                         <h3 className="text-lg font-semibold text-gray-800">{certification.title}</h3>
