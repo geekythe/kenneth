@@ -66,7 +66,7 @@ export default function ResumeSection() {
   )
 
   return (
-    <div className="h-full w-full overflow-y-auto bg-[#ECF0F0] py-12 px-4">
+    <div className="h-full w-full overflow-y-auto bg-[#EBF0DF] py-12 px-4">
       <div className="max-w-6xl mx-auto">
         {/* Resume Header */}
         <div className="flex flex-col items-center justify-center mb-16">
