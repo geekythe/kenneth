@@ -135,7 +135,7 @@ export default function BlogsSection() {
                       onClick={() => setSelectedBlog(blog)}
                     >
                       {/* Date Badge */}
-                      <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 bg-white rounded-full w-16 h-16 flex flex-col items-center justify-center shadow-md">
+                      <div className="absolute bottom-7 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 bg-white rounded-full w-16 h-16 flex flex-col items-center justify-center shadow-md">
                         <span className="text-xl font-bold text-gray-800">{blog.date.day}</span>
                         <span className="text-xs text-gray-500">{blog.date.month}</span>
                       </div>
@@ -151,7 +151,7 @@ export default function BlogsSection() {
                       </div>
 
                       {/* Blog Title */}
-                      <div className="p-6 text-center">
+                      <div className="px-6 pt-10 pb-6 text-center">
                         <h3 className="text-gray-800 font-medium tracking-wide">{blog.title}</h3>
                       </div>
                     </div>
