@@ -80,7 +80,7 @@ This is a modern, interactive portfolio website built with Next.js and integrate
 1. **Clone the repository**
 
 \`\`\`bash
-git clone https://github.com/yourusername/kenneth-portfolio.git
+git clone [https://github.com/geekythe/kenneth.git]
 cd kenneth-portfolio
 \`\`\`
 
