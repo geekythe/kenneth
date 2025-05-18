@@ -178,7 +178,7 @@ export default function CertificationsSection() {
               <div className="flex justify-center mb-2">
                 <Award className="text-gray-700" size={24} />
               </div>
-              <h2 className="text-5xl font-bold text-gray-700 mb-12">certifications</h2>
+              <h2 className="text-5xl font-bold text-gray-700 mb-12">Certifications</h2>
 
               {/* Filter Buttons */}
               <div className="flex flex-wrap justify-center gap-8 mb-12">
