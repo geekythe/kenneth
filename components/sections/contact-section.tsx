@@ -56,7 +56,7 @@ export default function ContactPage() {
             {/* Contact Header */}
             <div className="flex flex-col items-center mb-16">
               <PhoneCall size={48} className="mb-4 text-[#8ACB82]" strokeWidth={1} />
-              <h1 className="text-4xl md:text-5xl font-bold tracking-tight">CONTACT</h1>
+              <h1 className="text-4xl md:text-5xl font-bold tracking-tight">Contact</h1>
             </div>
 
             {/* Reach Me Section */}
