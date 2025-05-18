@@ -88,7 +88,7 @@ export default function ContactPage() {
                   <div className="w-20 h-20 flex items-center justify-center mb-3 lg:mb-0 flex-shrink-0">
                     <Mail size={42} strokeWidth={1} />
                   </div>
-                  <div className="text-xs font-medium text-center lg:text-left lowercase">KennethWebber @geekyandthebra.in</div>
+                  <div className="text-xs font-medium text-center lg:text-left ">KennethWebber @geekyandthebra.in</div>
                 </div>
 
                 <div className="flex flex-col items-center lg:flex-row ">
