@@ -121,7 +121,7 @@ export default function BlogsSection() {
                 <div className="flex justify-center mb-2">
                   <BookOpen className="text-gray-700" size={24} />
                 </div>
-                <h2 className="text-5xl font-bold text-gray-700 mb-8">blog</h2>
+                <h2 className="text-5xl font-bold text-gray-700 mb-8">Blog</h2>
               </div>
 
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
