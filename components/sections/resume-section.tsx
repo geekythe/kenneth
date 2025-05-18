@@ -73,7 +73,7 @@ export default function ResumeSection() {
           <div className="flex justify-center mb-4">
             <FileText className="text-gray-700" size={32} />
           </div>
-          <h1 className="text-5xl font-bold text-gray-700">resume</h1>
+          <h1 className="text-5xl font-bold text-gray-700">Resume</h1>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
