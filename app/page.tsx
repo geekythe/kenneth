@@ -72,35 +72,34 @@ export default function Home() {
 
   // Animation variants with a vertical pushing effect
   const slideVariants = {
-    enter: (direction: number) => ({
-      y: direction > 0 ? "100%" : "-100%",
-      zIndex: 1,
-    }),
-    center: {
-      y: 0,
-      zIndex: 2,
-      transition: {
-        y: {
-          type: "spring",
-          stiffness: 50,
-          damping: 20,
-          duration: 1,
-        },
+  enter: (direction: number) => ({
+    y: direction > 0 ? "100%" : "-100%",
+    zIndex: 1,
+  }),
+  center: {
+    y: 0,
+    zIndex: 2,
+    transition: {
+      y: {
+        type: "tween",
+        ease: "linear",
+        duration: 1,
       },
     },
-    exit: (direction: number) => ({
-      y: direction > 0 ? "-100%" : "100%",
-      zIndex: 0,
-      transition: {
-        y: {
-          type: "spring",
-          stiffness: 50,
-          damping: 20,
-          duration: 1,
-        },
+  },
+  exit: (direction: number) => ({
+    y: direction > 0 ? "-100%" : "100%",
+    zIndex: 0,
+    transition: {
+      y: {
+        type: "tween",
+        ease: "linear",
+        duration: 1,
       },
-    }),
-  }
+    },
+  }),
+}
+
 
   return (
     <div className="flex h-screen overflow-hidden bg-gray-100">
