@@ -97,7 +97,7 @@ export default function Sidebar({ sections, activeSection, onSectionChange }: Si
         </div>
         <div className="w-full bg-[#2BA163] items-center py-2 px-1 items-center justify-center flex gap-2">
           <p className="text-white text-md text-center font-medium">Kenneth </p>
-          <span className="text-white text-xs text-start font-medium">
+          <span className="text-white text-xs text-center font-medium">
             The <br />
             Brain
           </span>
