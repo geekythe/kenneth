@@ -83,7 +83,7 @@ export default function Home() {
       y: {
         type: "tween",
         ease: "linear",
-        duration: 1,
+        duration: 0.5,
       },
     },
   },
@@ -94,7 +94,7 @@ export default function Home() {
       y: {
         type: "tween",
         ease: "linear",
-        duration: 1,
+        duration: 0.5,
       },
     },
   }),
