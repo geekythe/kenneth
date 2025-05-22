@@ -91,23 +91,20 @@ export default function Sidebar({ sections, activeSection, onSectionChange }: Si
   const DesktopSidebar = () => (
     <aside className="fixed left-0 top-0 h-full w-32 bg-[#1C262B] flex flex-col items-center z-40 hidden md:flex">
       {/* Profile Section */}
-      <div className="w-full flex flex-col items-center">
+     <div className="w-full flex flex-col items-center">
         <div className="w-full aspect-square bg-gray-800 flex items-center justify-center ">
           <img src="/profile-image.png" alt="Profile" className="w-full" />
         </div>
-        <div className="w-full  items-center  items-center justify-center flex gap-2">
-          
-          <div className="bg-[#2BA163] py-2 px-2 flex-1">
-            <p className="text-white text-md text-center font-medium">Kenneth</p>
+        <div className="w-full flex">
+          <div className="bg-[#2BA163] w-2/3 py-2 flex items-center justify-center">
+            <p className="text-white text-sm text-center font-medium">Kenneth</p>
           </div>
-          <div className="bg-[#FF8C00] py-2 px-2">
+          <div className="bg-[#FF8C00] w-1/3 py-2 flex items-center justify-center">
             <span className="text-white text-xs text-center font-medium">
               The <br />
               Brain
             </span>
           </div>
-    
-         
         </div>
       </div>
 
