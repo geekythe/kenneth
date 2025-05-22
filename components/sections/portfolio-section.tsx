@@ -60,7 +60,7 @@ export default function PortfolioSection() {
   )
 
   return (
-    <div className="h-full w-full bg-[#60D7A9] overflow-y-auto py-12 px-4 md:px-8 relative">
+    <div className="h-full w-full bg-[#7B573F] overflow-y-auto py-12 px-4 md:px-8 relative">
       <AnimatePresence>
         {selectedProject ? (
           <motion.div
