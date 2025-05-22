@@ -51,17 +51,17 @@ export default function ContactPage() {
         </div>
 
         {/* Content Overlay */}
-        <div className="relative z-10 flex flex-col items-center min-h-full py-10 px-4 pb-20">
+        <div className="relative z-10 flex flex-col items-center min-h-full pt-8 px-4 pb-8">
           <div className="w-full max-w-5xl flex flex-col items-center">
             {/* Contact Header */}
-            <div className="flex flex-col items-center mb-16">
+            <div className="flex flex-col items-center mb-12">
               <PhoneCall size={48} className="mb-4 text-[#8ACB82]" strokeWidth={1} />
-              <h1 className="text-4xl md:text-5xl font-bold tracking-tight">Contact</h1>
+              <h1 className="text-4xl md:text-5xl font-bold tracking-tight">CONTACT</h1>
             </div>
 
             {/* Reach Me Section */}
-            <div className="w-full mb-16">
-              <div className="relative mb-12 flex justify-center">
+            <div className="w-full mb-6">
+              <div className="relative mb-8 flex justify-center">
                 <SectionHeader title="REACH ME" />
               </div>
 
@@ -88,7 +88,7 @@ export default function ContactPage() {
                   <div className="w-20 h-20 flex items-center justify-center mb-3 lg:mb-0 flex-shrink-0">
                     <Mail size={42} strokeWidth={1} />
                   </div>
-                  <div className="text-xs font-medium text-center lg:text-left ">KennethWebber @geekyandthebra.in</div>
+                  <div className="text-xs font-medium text-center lg:text-left lowercase">kennethwebber @geekyandthebra.in</div>
                 </div>
 
                 <div className="flex flex-col items-center lg:flex-row ">
@@ -102,7 +102,7 @@ export default function ContactPage() {
 
             {/* Contact Form */}
             <div className="max-w-8xl">
-              <div className="relative mb-12 flex justify-center">
+              <div className="relative mb-6 flex justify-center">
                 <SectionHeader title="DROP ME A LINE" />
               </div>
 
