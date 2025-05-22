@@ -71,7 +71,7 @@ export default function HomeSection() {
         </div>
 
       {/* Content */}
-      <div className="relative z-10 h-full w-full flex flex-col items-end  justify-end  text-white text-center px-4">
+      <div className="relative z-10 h-full w-full flex flex-col items-center  justify-center  text-white text-center px-4">
         <div className="w-full flex flex-col items-center mb-12 ">
           <p className="text-xl mb-2 font-light">Hi, I am</p>
 
@@ -86,11 +86,11 @@ export default function HomeSection() {
             </h4>
 
           <div className="flex items-center justify-center mb-4">
-            <p className="text-lg md:text-xl">Decade with Fortune</p>
+            <p className="text-lg md:text-xl">De</p>
             <div className="mx-3 relative w-20 h-20">
               <Image src="/inc500-logo.png" alt="Inc 500" fill className="object-contain" priority />
             </div>
-            <p className="text-lg md:text-xl">500 companies.</p>
+            <p className="text-lg md:text-xl">5</p>
           </div>
         </div>
       </div>
