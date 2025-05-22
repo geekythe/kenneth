@@ -96,10 +96,10 @@ export default function Sidebar({ sections, activeSection, onSectionChange }: Si
           <img src="/profile-image.png" alt="Profile" className="w-full" />
         </div>
         <div className="w-full flex">
-          <div className="bg-[#2BA163] w-2/3 py-2 flex items-center justify-center">
+          <div className="bg-[#6F42C1] w-2/3 py-2 flex items-center justify-center">
             <p className="text-white text-sm text-center font-medium">Kenneth</p>
           </div>
-          <div className="bg-[#FF8C00] w-1/3 py-2 flex items-center justify-center">
+          <div className="bg-[#1F1C6A] w-1/3 py-2 flex items-center justify-center">
             <span className="text-white text-xs text-center font-medium">
               The <br />
               Brain
