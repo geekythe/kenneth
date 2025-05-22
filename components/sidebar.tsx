@@ -95,12 +95,19 @@ export default function Sidebar({ sections, activeSection, onSectionChange }: Si
         <div className="w-full aspect-square bg-gray-800 flex items-center justify-center ">
           <img src="/profile-image.png" alt="Profile" className="w-full" />
         </div>
-        <div className="w-full bg-[#2BA163] items-center py-2 px-1 items-center justify-center flex gap-2">
-          <p className="text-white text-md text-center font-medium">Kenneth </p>
-          <span className="text-white text-xs text-center font-medium">
-            The <br />
-            Brain
-          </span>
+        <div className="w-full  items-center  items-center justify-center flex gap-2">
+          
+          <div className="bg-[#2BA163] py-2 px-2 flex-1">
+            <p className="text-white text-md text-center font-medium">Kenneth</p>
+          </div>
+          <div className="bg-[#FF8C00] py-2 px-2">
+            <span className="text-white text-xs text-center font-medium">
+              The <br />
+              Brain
+            </span>
+          </div>
+    
+         
         </div>
       </div>
 
