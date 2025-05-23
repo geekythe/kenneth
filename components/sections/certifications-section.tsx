@@ -104,7 +104,7 @@ export default function CertificationsSection() {
                     <div className="max-w-4xl mx-auto">
                       <div className="flex justify-between items-start mb-4">
                         <h1 className="text-3xl md:text-4xl font-bold text-gray-800">{selectedCertification.title}</h1>
-                        <span className="text-sm font-medium text-emerald-600 bg-emerald-100 px-3 py-1 rounded-full">
+                        <span className="text-sm font-medium text-emerald-600 bg-emerald-100 px-2 py-1 rounded-full">
                           {selectedCertification.date}
                         </span>
                       </div>
