@@ -90,7 +90,8 @@ export default function CertificationsSection() {
                 </button>
 
                 <div className="bg-white rounded-lg shadow-xl overflow-hidden">
-                  <div className="h-64 md:h-90 lg:h-124 xl:h-[36rem] bg-background/20 flex items-center justify-center">
+                                   <div className="h-64 md:h-90 lg:h-124 xl:h-[36rem] border border-2 border-black shadow-xl bg-background/20 flex items-center justify-center">
+
                      <img
                         src={selectedCertification.image.url || "/placeholder.svg"}
                         alt={selectedCertification.title}
