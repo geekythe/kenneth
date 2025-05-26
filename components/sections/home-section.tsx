@@ -86,7 +86,7 @@ export default function HomeSection() {
             </h4>
 
           <div className="flex items-center justify-center mb-4">
-            <p className="text-lg md:text-xl">10 Years In</p>
+            <p className="text-lg md:text-xl pl-6">10 Years In</p>
             <div className="mx-3 relative w-20 h-20">
               <Image src="/inc500-logo.png" alt="Inc 500" fill className="object-contain" priority />
             </div>
